@@ -2,12 +2,13 @@
     link:
       relink: true
 
-- clean: ['~']
+- clean: ["~"]
 
 - link:
-    ~/.zshrc: zshrc
-    ~/.aliases: aliases
-    ~/.gitconfig: gitconfig
+    ~/.zshrc:
+    ~/.aliases:
+    ~/.gitconfig:
+    ~/.gitignore:
 
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
+    - [git submodule update --init --recursive, Installing submodules]

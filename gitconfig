@@ -10,6 +10,10 @@
 [github]
   user = ryushinn
 
+[core]
+  # global gitignore
+	excludesfile = ~/.gitignore
+
 [alias]
   aa = add --all
   br = branch
