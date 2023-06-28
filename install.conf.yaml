@@ -3,9 +3,6 @@
       relink: true
       create: true
 
-# - shell:
-#     - [git submodule update --init --recursive, Installing submodules]
-
 - clean: ["~"]
 
 - link:
@@ -18,35 +15,22 @@
     ~/.gitconfig:
     ~/.gitignore:
 
-# Install sensible packages using brew, 
-# powered by [dotbot-brew](https://github.com/wren/dotbot-brew)
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
 
-# Installs brew if missing
-- install-brew: true
-
-# formulae
-- brew:
-    - git
-    - git-lfs
-    - fzf
-    - tree
-    - zoxide # better cd
-    - tldr # easier manual page
-    - coreutils # GNU core utils
-    - moreutils
-    - findutils # locate, find, fd...
-    - wget
-    - curl
-    - openssh
-    - gnupg
-    - imagemagick
-    - ffmpeg
-
-
-# casks
-- cask:
-    - slack
-    - zotero
-    - spotify
-    - 1password
-    - 1password-cli
+# Install sensible packages using [omnipkg](https://github.com/Code-Maniac/dotbot-omnipkg), 
+- omnipkg:
+    - update
+    - upgrade
+    - install: [
+        git,
+        git-lfs,
+        fzf,
+        tree,
+        zoxide, # better cd
+        tldr, # easier manual page
+        coreutils, moreutils, findutils,
+        wget, curl,
+        openssh, gnupg,
+        imagemagick, ffmpeg,
+    ]
