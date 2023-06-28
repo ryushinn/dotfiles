@@ -15,3 +15,36 @@
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
+
+# Install sensible packages using brew, 
+# powered by [dotbot-brew](https://github.com/wren/dotbot-brew)
+
+# Installs brew if missing
+- install-brew: true
+
+# formulae
+- brew:
+    - git
+    - git-lfs
+    - fzf
+    - tree
+    - zoxide # better cd
+    - tldr # easier manual page
+    - coreutils # GNU core utils
+    - moreutils
+    - findutils # locate, find, fd...
+    - wget --with-iri
+    - curl
+    - openssh
+    - gnupg
+    - imagemagick --with-webp
+    - ffmpeg
+
+
+# casks
+- cask:
+    - slack
+    - zotero
+    - spotify
+    - 1password
+    - 1password-cli
