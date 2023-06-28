@@ -118,7 +118,10 @@ source $ZSH/oh-my-zsh.sh
 # ----- Oh My Zsh -----
 
 # aliases
-[[ -f ~/.aliases ]] && source ~/.aliases
+[[ -f ~/.shell/aliases.sh ]] && source ~/shell/aliases.sh
+
+# functions
+[[ -f ~/.shell/functions.sh ]] && source ~/shell/functions.sh
 
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local

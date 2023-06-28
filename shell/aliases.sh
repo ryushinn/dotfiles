@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # abbr for better listing
 alias ll="ls -al"
 
@@ -9,8 +11,3 @@ alias mkdir="mkdir -p"
 
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
-
-# Include custom aliases
-if [[ -f ~/.aliases.local ]]; then
-  source ~/.aliases.local
-fi
