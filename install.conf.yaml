@@ -42,6 +42,7 @@
         tree,
         zoxide, # better cd
         tldr, # easier manual page
+        tmux, screen, # terminal multiplexier
         coreutils, moreutils, findutils,
         wget, curl,
         openssh, gnupg,
