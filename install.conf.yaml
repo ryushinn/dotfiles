@@ -13,7 +13,7 @@
 
     # bash
     ~/.bashrc:
-    
+
     # zsh
     ~/.zshrc:
     ~/.oh-my-zsh:
@@ -35,6 +35,7 @@
     - update
     - upgrade
     - install: [
+        [python3, python],
         git,
         git-lfs,
         fzf,
