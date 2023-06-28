@@ -33,11 +33,11 @@
     - coreutils # GNU core utils
     - moreutils
     - findutils # locate, find, fd...
-    - wget --with-iri
+    - wget
     - curl
     - openssh
     - gnupg
-    - imagemagick --with-webp
+    - imagemagick
     - ffmpeg
 
 
