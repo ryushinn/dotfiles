@@ -11,6 +11,9 @@
     # general shell
     ~/.shell:
 
+    # bash
+    ~/.bashrc:
+    
     # zsh
     ~/.zshrc:
     ~/.oh-my-zsh:

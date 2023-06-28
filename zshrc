@@ -117,6 +117,10 @@ source $ZSH/oh-my-zsh.sh
 # ---------------------
 # ----- Oh My Zsh -----
 
+
+# init zoxide
+eval "$(zoxide init zsh)"
+
 # aliases
 [[ -f ~/.shell/aliases.sh ]] && source ~/.shell/aliases.sh
 
