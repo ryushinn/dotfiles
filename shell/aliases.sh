@@ -13,3 +13,6 @@ alias df="df -h"           # -h prints human readable format
 
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
+
+# quick clear
+alias x='clear'
