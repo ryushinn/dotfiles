@@ -2,14 +2,6 @@
 [init]
   defaultBranch = main
 
-# my personal user setting
-[user]
-	name = ryushinn
-	email = chenliu.99@outlook.com
-
-[github]
-  user = ryushinn
-
 [core]
   # global gitignore
 	excludesfile = ~/.gitignore
