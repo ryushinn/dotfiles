@@ -11,6 +11,3 @@
 [submodule "omz-custom-plugins/zsh-syntax-highlighting"]
 	path = omz-custom-plugins/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
-[submodule "dotbot-omnipkg"]
-	path = dotbot-omnipkg
-	url = https://github.com/Code-Maniac/dotbot-omnipkg.git
