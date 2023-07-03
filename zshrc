@@ -117,6 +117,8 @@ source $ZSH/oh-my-zsh.sh
 # ---------------------
 # ----- Oh My Zsh -----
 
+# use vi mode in zsh editing
+bindkey -v
 
 # init zoxide
 eval "$(zoxide init zsh)"
