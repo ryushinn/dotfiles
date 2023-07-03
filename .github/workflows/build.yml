@@ -12,4 +12,5 @@ jobs:
       - run: |
           mkdir -p ~/dotfiles-install-dir
       - run: |
+          git submodule update --init --recursive
           HOME=~/dotfiles-install-dir ./install
