@@ -5,6 +5,7 @@
 [core]
   # global gitignore
 	excludesfile = ~/.gitignore
+	editor = vim
 
 [alias]
   aa = add --all
