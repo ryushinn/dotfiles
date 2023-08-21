@@ -131,3 +131,6 @@ eval "$(zoxide init zsh)"
 
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+
+# Extra config not in VCS
+[[ -f ~/.zshrc.extra ]] && source ~/.zshrc.extra
