@@ -120,9 +120,6 @@ source $ZSH/oh-my-zsh.sh
 # use vi mode in zsh editing
 bindkey -v
 
-# init zoxide
-eval "$(zoxide init zsh)"
-
 # aliases
 [[ -f ~/.shell/aliases.sh ]] && source ~/.shell/aliases.sh
 

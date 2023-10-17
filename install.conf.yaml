@@ -3,7 +3,9 @@
       relink: true
       create: true
 
-- clean: ["~"]
+- create: ["~/.ssh"]
+
+- clean: ['~', '~/.ssh']
 
 - link:
     ~/.dotfiles: "" # symlink a fixed path for all dotfiles
@@ -23,6 +25,9 @@
 
     # vim
     ~/.vimrc:
+
+    # ssh
+    ~/.ssh/config: ssh/config
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]

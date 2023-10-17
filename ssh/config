@@ -1,0 +1,31 @@
+# includes must go at the top
+# host-specific customization
+Include ~/.ssh/config.local
+# extra stuff not in version control
+Include ~/.ssh/config.extra
+
+AddKeysToAgent=yes
+
+# Home
+
+Host haruhi
+    User ryushinn
+    HostName 192.168.1.128
+
+Host haruhi-WSL
+    User ryushinn
+    HostName localhost
+    ProxyJump haruhi
+
+# School
+
+Host fitzrovia
+    User ryushinn
+    HostName 128.16.13.230
+    Port 8482
+
+# Other
+
+Host github
+    User git
+    HostName github.com
