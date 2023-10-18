@@ -23,6 +23,7 @@ Host fitzrovia
     User ryushinn
     HostName 128.16.13.230
     Port 8482
+    ForwardAgent Yes
 
 # Other
 
