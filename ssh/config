@@ -25,6 +25,11 @@ Host fitzrovia
     Port 8482
     ForwardAgent Yes
 
+Host haruhi-UCL
+    User ryushinn
+    HostName 128.16.13.240
+    ForwardAgent Yes
+
 # Other
 
 Host github
