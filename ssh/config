@@ -35,3 +35,9 @@ Host haruhi-UCL
 Host github
     User git
     HostName github.com
+
+Host OpenBayes
+    User root
+    HostName ssh.openbayes.com
+    Port 32383
+    ForwardAgent Yes
