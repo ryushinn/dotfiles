@@ -117,6 +117,9 @@ source $ZSH/oh-my-zsh.sh
 # ---------------------
 # ----- Oh My Zsh -----
 
+# to enable 256 colors for Tmux
+export TERM=xterm-256color
+
 # use vi mode in zsh editing
 bindkey -v
 
