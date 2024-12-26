@@ -123,6 +123,9 @@ export TERM=xterm-256color
 # use vi mode in zsh editing
 bindkey -v
 
+# enable [Tab] auto-complete for key=value CLI arguments
+setopt magic_equal_subst
+
 # aliases
 [[ -f ~/.shell/aliases.sh ]] && source ~/.shell/aliases.sh
 
