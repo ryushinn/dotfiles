@@ -15,4 +15,4 @@ alias df="df -h"           # -h prints human readable format
 alias path='echo $PATH | tr -s ":" "\n"'
 
 # quick clear
-alias x='clear'
+alias x='clear -x'
