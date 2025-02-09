@@ -28,18 +28,23 @@ Host fitzrovia
 Host haruhi-UCL
     User ryushinn
     HostName 128.16.13.240
+    ProxyJump tails
     ForwardAgent Yes
 
 Host tails
     User chenliu
     HostName tails.cs.ucl.ac.uk
+
+Host knuckles
+    User chenliu
+    HostName knuckles.cs.ucl.ac.uk
     
 
 Host beaker
     User chenliu
     HostName beaker.cs.ucl.ac.uk
     ProxyCommand ssh -W %h:%p tails
-    ForwardAgent Yes 
+    ForwardAgent Yes
 
 # Other
 
