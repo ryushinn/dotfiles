@@ -3,6 +3,7 @@
 Install the dotfiles:
 
 ```bash
+$URL=https://github.com/ryushinn/dotfiles.git
 git clone "$URL" && cd dotfiles && ./install
 ```
 
