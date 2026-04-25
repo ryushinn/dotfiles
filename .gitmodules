@@ -5,9 +5,12 @@
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
 	url = https://github.com/ohmyzsh/ohmyzsh.git
+	ignore = dirty
 [submodule "omz-custom-plugins/zsh-autosuggestions"]
 	path = omz-custom-plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
+	ignore = dirty
 [submodule "omz-custom-plugins/zsh-syntax-highlighting"]
 	path = omz-custom-plugins/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+	ignore = dirty
