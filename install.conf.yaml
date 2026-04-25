@@ -17,6 +17,9 @@
     ~/.zshrc:
     ~/.oh-my-zsh:
 
+    # p10k prompt config
+    ~/.p10k.zsh:
+
     # git
     ~/.gitconfig:
     ~/.gitignore:
@@ -30,9 +33,10 @@
     # tmux
     ~/.tmux.conf:
 
-# link these two explicitly after linking .oh-my-zsh
+# link oh-my-zsh custom plugins and themes
 - link:
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: omz-custom-plugins/zsh-autosuggestions
     ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: omz-custom-plugins/zsh-syntax-highlighting
+    ~/.oh-my-zsh/custom/themes/powerlevel10k: powerlevel10k
 
 - shell: []
