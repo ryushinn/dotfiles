@@ -79,6 +79,7 @@ plugins=(
     git
     aliases
     alias-finder
+    extract
 )
 
 plugins+=(
