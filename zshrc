@@ -90,6 +90,7 @@ plugins=(
     aliases
     alias-finder
     extract
+    universalarchive
 )
 
 plugins+=(
