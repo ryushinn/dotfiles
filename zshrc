@@ -138,6 +138,9 @@ bindkey -v
 # enable [Tab] auto-complete for key=value CLI arguments
 setopt magic_equal_subst
 
+# don't expand leading-= args (=cmd→path); keeps pip install pkg==ver working
+unsetopt equals
+
 # aliases
 [[ -f ~/.shell/aliases.sh ]] && source ~/.shell/aliases.sh
 
